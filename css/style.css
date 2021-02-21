@@ -189,22 +189,42 @@
     text-align: center;
 }
 
+/* TODO: remove this style after completing 
+.site-main .contact-area{
+    background-color: red;
+}*/
+
 .site-main .contact-area .contact{
-    margin: 1.5rem auto;
+    padding-top: 5rem;
 }
 
 .site-main .contact-area .contact .contact-title h4{
-    font: normal 700 30px/30px;
+    /* font: normal bold 700 30px/30px; */
+    font-weight: bolder;
+    font-size: 2rem;
+    letter-spacing: .3rem;
     color: black;
 }
 
-.site-main .contact-area .contact .contact-title p{
+.site-main .contact-area .contact .contact-title .img{
+    padding: 1.9rem 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.site-main .contact-area .contact .contact-title .para{
     color: red;
-    /* font: normal bold 700 30px/45px; */
-    font-size: 1.3rem;
+    font-size: 2rem;
     font-weight: bolder;
     padding: 1rem auto;
     letter-spacing: .1rem;
+    margin-bottom: 12rem;
+}
+
+.site-main .contact-area .contact .contact-title .contact-title-text{
+    letter-spacing: .2rem;
+    font-weight: 900;
 }
 
 footer.footer-area{
