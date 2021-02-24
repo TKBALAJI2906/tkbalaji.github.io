@@ -7,14 +7,6 @@
 /* import global variables */
 @import url(./partials/_global.css);
 
-.container-fluid {
-    width: 100%;
-    padding-right:15px;
-    padding-left:15px;
-    margin-right:auto;
-    margin-left:auto
- }
-
 .header_area .main-menu .navbar .navbar-brand{
     padding: 0 2rem 0 5rem;
     font-size: 25px;
@@ -77,10 +69,6 @@
 .site-main .about-area{
     padding: 8rem 5rem;
 }
-
-/* .site-main .about-area .about-title{
-    padding: 1em 0 0 3em;
-} */
 
 .site-main .about-area .about-title .paragraph{
     text-align: justify;
