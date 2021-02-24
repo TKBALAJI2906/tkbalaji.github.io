@@ -7,6 +7,14 @@
 /* import global variables */
 @import url(./partials/_global.css);
 
+.container-fluid {
+    width: 100%;
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto
+ }
+
 .header_area .main-menu .navbar .navbar-brand{
     padding: 0 2rem 0 5rem;
     font-size: 25px;
@@ -70,8 +78,13 @@
     padding: 8rem 5rem;
 }
 
-.site-main .about-area .about-title{
+/* .site-main .about-area .about-title{
     padding: 1em 0 0 3em;
+} */
+
+.site-main .about-area .about-title .paragraph{
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .site-main .about-area .about-title h2 > span{
@@ -81,7 +94,7 @@
 }
 
 .social-center{
-    margin: auto 12%;
+    margin: auto;
 }
 
 .nav-social-media{
@@ -161,7 +174,7 @@
 } 
 
 .site-main .projects-area .project-title{
-    padding: 0 14rem;
+    padding: 0 auto;
     text-align: center;
 }
 
@@ -170,6 +183,7 @@
     margin: auto;
     vertical-align: middle;
     line-height: 51px;
+    text-align: center;
     margin-top: 5rem;
 }
 
@@ -189,17 +203,11 @@
     text-align: center;
 }
 
-/* TODO: remove this style after completing 
-.site-main .contact-area{
-    background-color: red;
-}*/
-
 .site-main .contact-area .contact{
     padding-top: 5rem;
 }
 
 .site-main .contact-area .contact .contact-title h4{
-    /* font: normal bold 700 30px/30px; */
     font-weight: bolder;
     font-size: 2rem;
     letter-spacing: .3rem;
