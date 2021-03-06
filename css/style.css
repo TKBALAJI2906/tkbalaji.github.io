@@ -155,6 +155,10 @@
     text-align: center;
 }
 
+.site-main .services-area .services-list .services a{
+    text-decoration: none;
+}
+
 
 /* End Services Area */ 
 
