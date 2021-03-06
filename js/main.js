@@ -1,48 +1,4 @@
 $(document).ready(function () {
-
-
-    let $btns = $('.project-area .button-group button');
-
-
-    $btns.click(function (e) {
-
-        $('.project-area .button-group button').removeClass('active');
-        e.target.classList.add('active');
-
-        let selector = $(e.target).attr('data-filter');
-        $('.project-area .grid').isotope({
-            filter: selector
-        });
-
-        return false;
-    })
-
-    $('.project-area .button-group #btn1').trigger('click');
-
-    $('.project-area .grid .test-popup-link').magnificPopup({
-        type: 'image',
-        gallery: { enabled: true }
-    });
-
-
-    // Owl-carousel
-
-    $('.site-main .about-area .owl-carousel').owlCarousel({
-        loop: true,
-        autoplay: true,
-        dots: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            560: {
-                items: 2
-            }
-        }
-    })
-
-    // sticky navigation menu
-
     let nav_offset_top = $('.header_area').height() + 50;
 
     function navbarFixed() {
@@ -60,4 +16,51 @@ $(document).ready(function () {
 
     navbarFixed();
 
+
+    $('ul.navbar-nav > li')
+        .click(function (e) {
+            $('ul.navbar-nav > li')
+                .removeClass('active');
+            $(this).addClass('active');
+        });
+
+    $('.navbar-collapse a').click(function () {
+        $(".navbar-collapse").collapse('hide');
+    });
+
+    // Cache selectors
+    var lastId,
+        topMenu = $("#top-menu"),
+        topMenuHeight = topMenu.outerHeight() + 15,
+        // All list items
+        menuItems = topMenu.find("a"),
+        // Anchors corresponding to menu items
+        scrollItems = menuItems.map(function () {
+            var item = $($(this).attr("href"));
+            if (item.length) { return item; }
+        });
+
+    $(window).scroll(function () {
+        // Get container scroll position
+        var fromTop = $(this).scrollTop() + topMenuHeight;
+
+        // Get id of current scroll item
+        var cur = scrollItems.map(function () {
+            if ($(this).offset().top < fromTop)
+                return this;
+        });
+        // Get the id of the current element
+        cur = cur[cur.length - 1];
+        var id = cur && cur.length ? cur[0].id : "";
+
+        if (lastId !== id) {
+            lastId = id;
+            // Set/remove active class
+            menuItems
+                .parent().removeClass("active")
+                .end().filter("[href='#" + id + "']").parent().addClass("active");
+        }
+    });
+
 });
+
