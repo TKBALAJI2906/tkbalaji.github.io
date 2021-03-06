@@ -1,3 +1,6 @@
+
+
+
 html, body{
     margin: 0%;
     box-sizing: border-box;
@@ -5,7 +8,8 @@ html, body{
     height: 100%;
 }
 
-/* CSS variables */
+
+/* CSS Variables */ 
 
 :root{
     --primary-color: #4458dc;

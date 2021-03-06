@@ -1,13 +1,16 @@
+
+
+
 /* if the viewport is equal to 340px or less than that */ 
 @media only screen and (max-width: 340px){
     .header_area .main-menu .navbar,
     .header_area .main-menu .navbar .navbar-brand,
-    .site-main .contact-us-area .contact .contact-title,
-    .site-main .contact-us-area .contact .contact-title p, h4,
+    .site-main .subscribe-us-area .subscribe .subscribe-title,
+    .site-main .subscribe-us-area .subscribe .subscribe-title p, h4,
     .site-main .services-area,
-    .site-main .contact-us-area .contact
+    .site-main .subscribe-us-area .subscribe
     {
-        padding: 2%;
+        padding: 10%;
         margin: 0%;
     }
 
@@ -15,8 +18,33 @@
         font-size: 41px;
     }
 
+    .site-main .site-banner .site-title h4{
+        font-size: medium;
+    }
+
+    .site-main .about-area .about-title .paragraph{
+        text-align: center;
+    }
+
+    .site-main .subscribe-us-area .subscribe form .input-textbox input{
+        width: 15rem    !important;
+    }
+
     .site-main > .services-area .services{
-        width: 13rem;
+        width: auto;
+    }
+
+    *, ::after, ::before,
+    .about-area {
+        -webkit-box-sizing: content-box;
+            -moz-box-sizing: content-box;
+                box-sizing: content-box;
+    }
+    .py-4{
+        text-align: center;
+    }
+    .services-area .container{
+        padding-right: 0;
     }
 
 }
@@ -29,10 +57,36 @@
         letter-spacing: 10px;
     }
 
+    .site-main .brand-area .experience-area .years-area{
+        padding-left: 1%;
+        width: 49%;
+    }
+
+    .site-main .brand-area .experience-area .bg-panel{
+        margin-left: 30%;
+        width: 80%;   
+    }
+
+    .site-main .brand-area .experience-area .call-area{
+        padding-left: 3%;
+    }
+
+    .site-main .project-area .button-group button{
+        font: normal 500 18px/40px var(--roboto);
+    }
+
     .site-main .about-area .about-title p{
         padding: 0%;
     }
 
+    .site-main .subscribe-us-area .subscribe form .input-textbox input{
+        width: 20rem;
+        margin: 5%;
+    }
+    .social-icons{
+        font-size: 1.5em;
+        padding: .5rem;
+    }
 }
 
 
@@ -48,7 +102,8 @@
     }
 
     .site-main .brand-area,
-    .site-main .services-area .services-title{
+    .site-main .services-area .services-title,
+    .site-main .about-area{
         padding: 3% 4%;
     }
 
