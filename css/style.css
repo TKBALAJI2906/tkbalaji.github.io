@@ -124,21 +124,21 @@
 
 /* End About Area */ 
 
-/* Services Area */ 
+/* forteAndPortfolio Area */ 
 
-.site-main .services-area{
+.site-main .forteAndPortfolio-area{
     padding: 7rem 2rem;
 }
 
-.site-main .services-area .services-title{
+.site-main .forteAndPortfolio-area .forteAndPortfolio-title{
     padding: 0 14rem;
 }
 
-.site-main .services-area .services-title h1{
+.site-main .forteAndPortfolio-area .forteAndPortfolio-title h1{
     font-size: 35px;
 }
 
-.site-main > .services-area .services{
+.site-main > .forteAndPortfolio-area .forteAndPortfolio{
     background: rgba(248, 252, 253, 0.973);
     padding: 2rem 0;
     width: auto;
@@ -146,21 +146,21 @@
     transition: box-shadow .7s ease;
 }
 
-.site-main > .services-area .services:hover{
+.site-main > .forteAndPortfolio-area .forteAndPortfolio:hover{
     box-shadow: var(--box-shadow);
 }
 
-.site-main .services-area .services-list .loading{
+.site-main .forteAndPortfolio-area .forteAndPortfolio-list .loading{
     display: block;
     text-align: center;
 }
 
-.site-main .services-area .services-list .services a{
+.site-main .forteAndPortfolio-area .forteAndPortfolio-list .forteAndPortfolio a{
     text-decoration: none;
 }
 
 
-/* End Services Area */ 
+/* End forteAndPortfolio Area */ 
 
 /* Subscribe me */ 
 
@@ -175,7 +175,7 @@
 }
 
 .site-main .subscribe-us-area .subscribe .subscribe-title .img{
-    margin: 50px 0;
+    margin: 3rem 0;
 }
 
 .site-main .subscribe-us-area .subscribe .subscribe-title p{

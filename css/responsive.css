@@ -8,7 +8,7 @@
         font-size: 4rem;
     }
 
-    .site-main > .services-area .services{
+    .site-main > .forteAndPortfolio-area .forteAndPortfolio{
         width: auto;
     }
 
@@ -21,7 +21,7 @@
     .py-4{
         text-align: center;
     }
-    .services-area .container{
+    .forteAndPortfolio-area .container{
         padding-right: 0;
     }
     .site-main .subscribe-us-area .subscribe .subscribe-title p{
@@ -87,7 +87,7 @@
     }
 
     .site-main .brand-area,
-    .site-main .services-area .services-title,
+    .site-main .forteAndPortfolio-area .forteAndPortfolio-title,
     .site-main .about-area{
         padding: 3% 4%;
     }
