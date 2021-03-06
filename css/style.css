@@ -67,7 +67,7 @@
 }
 
 .site-main .site-banner .site-title h1{
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .site-main .site-banner .site-title h4{
@@ -102,7 +102,7 @@
 }
 
 .site-main .about-area .about-title .paragraph > p{
-    padding: .4rem 0;
+    font-size: larger;
 }
 
 .social-center{
