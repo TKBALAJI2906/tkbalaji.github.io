@@ -12,12 +12,12 @@
         width: auto;
     }
 
-    *, ::after, ::before,
+    /* *, ::after, ::before,
     .about-area {
         -webkit-box-sizing: content-box;
             -moz-box-sizing: content-box;
                 box-sizing: content-box;
-    }
+    } */
     .py-4{
         text-align: center;
     }

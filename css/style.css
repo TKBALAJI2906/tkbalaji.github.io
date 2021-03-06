@@ -131,7 +131,7 @@
 }
 
 .site-main .forteAndPortfolio-area .forteAndPortfolio-title{
-    padding: 0 14rem;
+    padding: 3rem 14rem;
 }
 
 .site-main .forteAndPortfolio-area .forteAndPortfolio-title h1{
@@ -165,17 +165,18 @@
 /* Subscribe me */ 
 
 .site-main .subscribe-us-area .subscribe{
-    padding: 10rem 0;
+    padding: 5rem 0;
     margin: 3rem auto;
 }
 
 .site-main .subscribe-us-area .subscribe .subscribe-title h4{
     font: normal 700 30px/ 30px var(--roboto);
     color: rosybrown;
+    margin-bottom: 3rem;
 }
 
 .site-main .subscribe-us-area .subscribe .subscribe-title .img{
-    margin: 3rem 0;
+    margin: 3rem 0 2rem 0;
 }
 
 .site-main .subscribe-us-area .subscribe .subscribe-title p{
